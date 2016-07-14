@@ -22,6 +22,8 @@ class GameScene: SKScene {
         
         /* Set reference to scroll layer node */
         scrollLayer = self.childNodeWithName("scrollLayer")
+        
+        print("hi")
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {

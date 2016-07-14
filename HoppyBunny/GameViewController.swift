@@ -13,6 +13,7 @@ class GameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("harry")
 
         if let scene = GameScene(fileNamed:"GameScene") {
             
