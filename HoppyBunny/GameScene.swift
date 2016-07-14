@@ -19,6 +19,9 @@ class GameScene: SKScene {
     override func didMoveToView(view: SKView) {
         hero = self.childNodeWithName("//hero") as! SKSpriteNode
         /* Set up your scene here */
+        
+        /* Set reference to scroll layer node */
+        scrollLayer = self.childNodeWithName("scrollLayer")
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
@@ -58,37 +61,19 @@ class GameScene: SKScene {
             /* Update last touch timer */
             sinceTouch+=fixedDelta
             //right here/* Process world scrolling */
-            /* Process world scrolling */
+            
+//            /* Process world scrolling */
 //            scrollWorld()
             
             
         }
         /* Called before each frame is rendered */
     }
+
 //    func scrollWorld() {
-//        /* Loop through scroll layer nodes */
-//        for ground in scrollLayer.children as! [SKSpriteNode] {
-//            /* Get ground node position, convert node position to scene space */
-//            let groundPosition = scrollLayer.convertPoint(ground.position, toNode: self)
-//            /* Check if ground sprite has left the scene */
-//            if groundPosition.x <= -ground.size.width / 2 {
-//                /* Reposition ground sprite to the second starting position */
-//                let newPosition = CGPointMake( (self.size.width / 2) + ground.size.width, groundPosition.y
-//                    /* Convert new node position back to scroll layer space */
-//                    ground.position = self.convertPoint(newPosition, toNode: scrollLayer)
-//            }
-//            
-//            
-//            
-//            
-//            
-//            /* Scroll World */
-//            let scrollSpeed: CGFloat = 160
-//            scrollLayer.position.x -= scrollSpeed * CGFloat(fixedDelta)
-//            
-//            
-//            
-//        }
+//        /* Scroll World */
+//        scrollLayer.position.x -= scrollSpeed * CGFloat(fixedDelta)
+//    }
 }
 
 
