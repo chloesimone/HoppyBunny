@@ -17,10 +17,11 @@
 		3E9DE10B1D3423A3007B6C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9DE1091D3423A3007B6C87 /* LaunchScreen.storyboard */; };
 		3E9DE1151D3424EA007B6C87 /* sfx_flap.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3E9DE1131D3424EA007B6C87 /* sfx_flap.caf */; };
 		3E9DE1161D3424EA007B6C87 /* sfx_goal.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3E9DE1141D3424EA007B6C87 /* sfx_goal.caf */; };
+		3EBA52021D35B862007227E5 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBA52011D35B862007227E5 /* CGFloat+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E6708881D3453D8006A5197 /* Hero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Hero.sks; sourceTree = "<group>"; };
+		3E6708881D3453D8006A5197 /* Hero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Hero.sks; path = ../Hero.sks; sourceTree = "<group>"; };
 		3E9DE0F91D3423A3007B6C87 /* HoppyBunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoppyBunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E9DE0FC1D3423A3007B6C87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E9DE0FE1D3423A3007B6C87 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -32,6 +33,7 @@
 		3E9DE10C1D3423A3007B6C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E9DE1131D3424EA007B6C87 /* sfx_flap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_flap.caf; sourceTree = "<group>"; };
 		3E9DE1141D3424EA007B6C87 /* sfx_goal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_goal.caf; sourceTree = "<group>"; };
+		3EBA52011D35B862007227E5 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 		3E9DE0F01D3423A3007B6C87 = {
 			isa = PBXGroup;
 			children = (
-				3E6708881D3453D8006A5197 /* Hero.sks */,
 				3E9DE0FB1D3423A3007B6C87 /* HoppyBunny */,
 				3E9DE0FA1D3423A3007B6C87 /* Products */,
 			);
@@ -65,7 +66,9 @@
 		3E9DE0FB1D3423A3007B6C87 /* HoppyBunny */ = {
 			isa = PBXGroup;
 			children = (
+				3E6708881D3453D8006A5197 /* Hero.sks */,
 				3E9DE0FC1D3423A3007B6C87 /* AppDelegate.swift */,
+				3EBA52011D35B862007227E5 /* CGFloat+Extensions.swift */,
 				3E9DE0FE1D3423A3007B6C87 /* GameScene.sks */,
 				3E9DE1001D3423A3007B6C87 /* GameScene.swift */,
 				3E9DE1021D3423A3007B6C87 /* GameViewController.swift */,
@@ -165,6 +168,7 @@
 			files = (
 				3E9DE1011D3423A3007B6C87 /* GameScene.swift in Sources */,
 				3E9DE1031D3423A3007B6C87 /* GameViewController.swift in Sources */,
+				3EBA52021D35B862007227E5 /* CGFloat+Extensions.swift in Sources */,
 				3E9DE0FD1D3423A3007B6C87 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  HoppyBunny
 //
-//  Created by Linda Brown on 7/11/16.
-//  Copyright © 2016 Linda Brown. All rights reserved.
+//  Created by Simone Brown on 7/11/16.
+//  Copyright © 2016 Simone Brown. All rights reserved.
 //
 
 import UIKit

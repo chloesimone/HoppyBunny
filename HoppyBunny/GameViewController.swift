@@ -2,8 +2,8 @@
 //  GameViewController.swift
 //  HoppyBunny
 //
-//  Created by Linda Brown on 7/11/16.
-//  Copyright (c) 2016 Linda Brown. All rights reserved.
+//  Created by Simone Brown on 7/11/16.
+//  Copyright (c) 2016 Simone Brown. All rights reserved.
 //
 
 import UIKit
@@ -15,6 +15,7 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
 
         if let scene = GameScene(fileNamed:"GameScene") {
+            
             // Configure the view.
             let skView = self.view as! SKView
             skView.showsFPS = true
@@ -32,6 +33,7 @@ class GameViewController: UIViewController {
 
     override func shouldAutorotate() -> Bool {
         return true
+        
     }
 
     override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
